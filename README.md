@@ -1,5 +1,7 @@
 # flask-mysql-app
 
+![app's screenshot](https://repository-images.githubusercontent.com/208533999/f41d0300-dc05-11e9-87e8-31c7fb0725d3)
+
 First, create your enviroment:
 ```ssh
 $ python3 -m venv .env
