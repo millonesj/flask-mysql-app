@@ -62,7 +62,7 @@ def delete_contact(id):
   cur = mysql.connection.cursor()
   res = cur.execute('DELETE FROM contact WHERE id ={}'.format(id))
   mysql.connection.commit()
-  flash('Conact Removed Successfuly')
+  flash('Contact Removed Successfuly')
   return redirect(url_for('Index'))
 
 if __name__ == '__main__':
